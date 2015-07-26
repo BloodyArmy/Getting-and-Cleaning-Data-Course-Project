@@ -52,12 +52,12 @@ The following files are available for the train and test data. Their description
 
 * `subject` - The participant ("subject") ID
 * `activityType` - The label of the activity performed when the corresponding measurements were taken
-** `WALKING` (value `1`)
-** `WALKING_UPSTAIRS` (value `2`)
-** `WALKING_DOWNSTAIRS` (value `3`)
-** `SITTING` (value `4`)
-** `STANDING` (value `5`)
-** `LAYING` (value `6`)
+	* `WALKING` (value `1`)
+	* `WALKING_UPSTAIRS` (value `2`)
+	* `WALKING_DOWNSTAIRS` (value `3`)
+	* `SITTING` (value `4`)
+	* `STANDING` (value `5`)
+	* `LAYING` (value `6`)
 
 ### Extracted Feature Fields (mean & std only)
 
