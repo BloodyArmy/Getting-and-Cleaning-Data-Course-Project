@@ -48,10 +48,10 @@ The following files are available for the train and test data. Their description
 
 ## Script Flow (```run_analysis.R```)
 
-1.Download the file and place the file in the data folder (commented)
-2.Unzip the file (commented)
-3.Unzipped files are in the folder UCI HAR Dataset. Get the list of the files
-4.Read data from the files into variables
+1. Download the file and place the file in the data folder (commented)
+2. Unzip the file (commented)
+3. Unzipped files are in the folder UCI HAR Dataset. Get the list of the files
+4. Read data from the files into variables
 	4.1 Read the Activity files (Train & Test)
 	4.2 Read the Subject files (Train & Test)
 	4.3 Read the Features files (Train & Test)
