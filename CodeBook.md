@@ -82,7 +82,7 @@ The following files are available for the train and test data. Their description
 	* `STANDING` (value `5`)
 	* `LAYING` (value `6`)
 
-### Extracted Feature Fields (mean & std only)
+### Feature Fields (mean & std only)
 
 * `timeBodyAccelerometer-mean()-X`
 * `timeBodyAccelerometer-mean()-Y`
