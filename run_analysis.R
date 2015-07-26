@@ -6,12 +6,12 @@
 # From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## 1.Download the zipped data file and place it into the data folder 
-if(!file.exists("./data")) {dir.create("./data")}
-fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(fileUrl, destfile="./data/Dataset.zip", method="curl")
+#if(!file.exists("./data")) {dir.create("./data")}
+#fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+#download.file(fileUrl, destfile="./data/Dataset.zip", method="curl")
 
 ## 2.Unzip the file
-unzip(zipfile="./data/Dataset.zip", exdir="./data")
+#unzip(zipfile="./data/Dataset.zip", exdir="./data")
 
 ## 3.Required files are in the folder `~\data\UCI HAR Dataset`, point to the necessary files. 
 path_rf <- file.path("./data", "UCI HAR Dataset")

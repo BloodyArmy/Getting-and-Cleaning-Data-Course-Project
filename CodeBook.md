@@ -144,13 +144,9 @@ The following files are available for the train and test data. Their description
 * `frequencyBodyGyroscope-std()-Z`
 * `frequencyBodyAccelerometerMagnitude-mean()`
 * `frequencyBodyAccelerometerMagnitude-std()`
-* `frequencyBodyBodyAccelerometerJerkMagnitude-mean()` 
-* `frequencyBodyBodyAccelerometerJerkMagnitude-std()`
-* `frequencyBodyBodyGyroscopeMagnitude-mean()`
-* `frequencyBodyBodyGyroscopeMagnitude-std()`
-* `frequencyBodyBodyGyroscopeJerkMagnitude-mean()`
-* `frequencyBodyBodyGyroscopeJerkMagnitude-std()`
-
-
-
-
+* `frequencyBodyAccelerometerJerkMagnitude-mean()` 
+* `frequencyBodyAccelerometerJerkMagnitude-std()`
+* `frequencyBodyGyroscopeMagnitude-mean()`
+* `frequencyBodyGyroscopeMagnitude-std()`
+* `frequencyBodyGyroscopeJerkMagnitude-mean()`
+* `frequencyBodyGyroscopeJerkMagnitude-std()`
