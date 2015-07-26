@@ -13,7 +13,7 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 * Source of the datasets can be referenced [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 * Alternatively, refer ```CodeBook.md``` - it describes the variables, the data, and any transformation or work that have been performed to clean up the data. 
 
-### Main (and only) cleanup script - ```run_analysis.R```
+### Main script - ```run_analysis.R```
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -27,11 +27,11 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 2. Load the ```run_analysis.R``` in R/RStudio. No parameter involved.
 3. The required dataset can be found in `~/data/UCI HAR Dataset` project files directory.
 ```
-Alternatively, you may remove the commented section (#1 & #2 only) in run_analysis.R to re-download and unzip fresh copy of data. 
+Alternatively, you can remove the commented section (#1 & #2 only) in run_analysis.R to re-download and unzip fresh copy of data. 
 1.Download the file and place the file in the data folder
 2.Unzip the file
 ```
 4. Execute the ```run_analysis.R```.
-5. Two files (same data but different format) will be created as per cleanup activity described above:
+5. Two result files (same data but different format) will be created:
 	- tidydata.txt > result that will be uploaded as per coursework requirement.
 	- tidydata.csv > result in csv format for easier viewing. 
