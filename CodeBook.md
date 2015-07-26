@@ -38,10 +38,96 @@ The following files are available for the train and test data. Their description
 * 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 * 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-## Transformation/Work Details (```run_analysis.R```)
+## Transformation & Work Details Performed (```run_analysis.R```)
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## Details for Final Result - ```TidyData```
+
+### ID Fields
+
+* `subject` - The participant ("subject") ID
+* `activityType` - The label of the activity performed when the corresponding measurements were taken
+** `WALKING` (value `1`)
+** `WALKING_UPSTAIRS` (value `2`)
+** `WALKING_DOWNSTAIRS` (value `3`)
+** `SITTING` (value `4`)
+** `STANDING` (value `5`)
+** `LAYING` (value `6`)
+
+### Extracted Feature Fields (mean & std only)
+
+* `timeBodyAccelerometer-mean()-X`
+* `timeBodyAccelerometer-mean()-Y`
+* `timeBodyAccelerometer-mean()-Z`
+* `timeBodyAccelerometer-std()-X`
+* `timeBodyAccelerometer-std()-Y`
+* `timeBodyAccelerometer-std()-Z`
+* `timeGravityAccelerometer-mean()-X`
+* `timeGravityAccelerometer-mean()-Y`
+* `timeGravityAccelerometer-mean()-Z`
+* `timeGravityAccelerometer-std()-X`
+* `timeGravityAccelerometer-std()-Y`
+* `timeGravityAccelerometer-std()-Z`
+* `timeBodyAccelerometerJerk-mean()-X`
+* `timeBodyAccelerometerJerk-mean()-Y`
+* `timeBodyAccelerometerJerk-mean()-Z`
+* `timeBodyAccelerometerJerk-std()-X`
+* `timeBodyAccelerometerJerk-std()-Y`
+* `timeBodyAccelerometerJerk-std()-Z`
+* `timeBodyGyroscope-mean()-X`
+* `timeBodyGyroscope-mean()-Y`
+* `timeBodyGyroscope-mean()-Z`
+* `timeBodyGyroscope-std()-X`
+* `timeBodyGyroscope-std()-Y`
+* `timeBodyGyroscope-std()-Z`
+* `timeBodyGyroscopeJerk-mean()-X`
+* `timeBodyGyroscopeJerk-mean()-Y`
+* `timeBodyGyroscopeJerk-mean()-Z`
+* `timeBodyGyroscopeJerk-std()-X`
+* `timeBodyGyroscopeJerk-std()-Y`
+* `timeBodyGyroscopeJerk-std()-Z`
+* `timeBodyAccelerometerMagnitude-mean()`
+* `timeBodyAccelerometerMagnitude-std()`
+* `timeGravityAccelerometerMagnitude-mean()`
+* `timeGravityAccelerometerMagnitude-std()`
+* `timeBodyAccelerometerJerkMagnitude-mean()`
+* `timeBodyAccelerometerJerkMagnitude-std()`
+* `timeBodyGyroscopeMagnitude-mean()`
+* `timeBodyGyroscopeMagnitude-std()`
+* `timeBodyGyroscopeJerkMagnitude-mean()`
+* `timeBodyGyroscopeJerkMagnitude-std()`
+* `frequencyBodyAccelerometer-mean()-X`
+* `frequencyBodyAccelerometer-mean()-Y`
+* `frequencyBodyAccelerometer-mean()-Z`
+* `frequencyBodyAccelerometer-std()-X`
+* `frequencyBodyAccelerometer-std()-Y`
+* `frequencyBodyAccelerometer-std()-Z`
+* `frequencyBodyAccelerometerJerk-mean()-X`
+* `frequencyBodyAccelerometerJerk-mean()-Y`
+* `frequencyBodyAccelerometerJerk-mean()-Z`
+* `frequencyBodyAccelerometerJerk-std()-X`
+* `frequencyBodyAccelerometerJerk-std()-Y`
+* `frequencyBodyAccelerometerJerk-std()-Z`
+* `frequencyBodyGyroscope-mean()-X`
+* `frequencyBodyGyroscope-mean()-Y`
+* `frequencyBodyGyroscope-mean()-Z`
+* `frequencyBodyGyroscope-std()-X`
+* `frequencyBodyGyroscope-std()-Y`
+* `frequencyBodyGyroscope-std()-Z`
+* `frequencyBodyAccelerometerMagnitude-mean()`
+* `frequencyBodyAccelerometerMagnitude-std()`
+* `frequencyBodyBodyAccelerometerJerkMagnitude-mean()` 
+* `frequencyBodyBodyAccelerometerJerkMagnitude-std()`
+* `frequencyBodyBodyGyroscopeMagnitude-mean()`
+* `frequencyBodyBodyGyroscopeMagnitude-std()`
+* `frequencyBodyBodyGyroscopeJerkMagnitude-mean()`
+* `frequencyBodyBodyGyroscopeJerkMagnitude-std()`
+
+
+
+
