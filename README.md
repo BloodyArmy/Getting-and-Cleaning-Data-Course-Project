@@ -1,7 +1,5 @@
-# Getting-and-Cleaning-Data-Course-Project
+# README for Getting-and-Cleaning-Data-Course-Project
 Coursera/Data Science/Getting and Cleaning Data Course Project
-
-# README for Getting and Cleaning Data Course Project
 
 ```
 This repo hosts the course project's work for Coursera DataScience track's "Getting and Cleaning Data" course which will be peer assessed.
@@ -25,11 +23,11 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 
 ### Execution and files
 
-1. Download the project files to your local directory. 
+1. Download the project files into your local directory. 
 2. Load the ```run_analysis.R``` in R/RStudio. No parameter involved.
-3. The required dataset has been stored in `data/UCI HAR Dataset/` directory.
+3. The required dataset can be found in `~/data/UCI HAR Dataset` project files directory.
 ```
-Alternatively, you may remove the below commented section in run_analysis.R to re-download and unzip fresh copy of data. 
+Alternatively, you may remove the commented section (#1 & #2 only) in run_analysis.R to re-download and unzip fresh copy of data. 
 1.Download the file and place the file in the data folder
 2.Unzip the file
 ```
