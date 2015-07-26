@@ -12,7 +12,7 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 
 ### Data set description & source
 * Full description of the datasets used in the project can be referenced [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
-* Source of the datasets can be obtained can be referenced [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+* Source of the datasets can be referenced [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 * Alternatively, refer ```CodeBook.md``` - it describes the variables, the data, and any transformation or work that have been performed to clean up the data. 
 
 ### Main (and only) cleanup script - ```run_analysis.R```
