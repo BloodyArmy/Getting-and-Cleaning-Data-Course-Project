@@ -48,14 +48,14 @@ The following files are available for the train and test data. Their description
 
 ## Script Flow (```run_analysis.R```)
 
-1. Download the file and place the file in the data folder (commented)
-2. Unzip the file (commented)
-3. Unzipped files are in the folder UCI HAR Dataset. Get the list of the files
-4. Read data from the files into variables
-	4.1 Read the Activity files (Train & Test)
-	4.2 Read the Subject files (Train & Test)
-	4.3 Read the Features files (Train & Test)
-5. Merge the training and test sets to create one data set
+1. (commented) Download the zipped data file and place it into the data folder 
+2. (commented) Unzip the file 
+3. Required files are in the folder `~\data\UCI HAR Dataset`, point to the necessary files. 
+4. Read data from the files (Train & Test) into variables
+	4.1 Read the Activity files
+	4.2 Read the Subject files
+	4.3 Read the Features files
+5. Merge the training and test data sets to create one single data set
 	5.1 Concatenate the data tables by rows
 	5.2 Set names to variables
 	5.3 Merge columns to get the dataframe data for all data
