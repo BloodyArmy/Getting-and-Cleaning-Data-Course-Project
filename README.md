@@ -33,5 +33,5 @@ Alternatively, you can remove the commented section (#1 & #2 only) in run_analys
 ```
 4. Execute the ```run_analysis.R```.
 5. Two result files (same data but different format) will be created:
-	- '''tidydata.txt''' > result that will be uploaded as per coursework requirement.
-	- '''tidydata.csv''' > result in csv format for easier viewing. 
+	- ```tidydata.txt``` > result that will be uploaded as per coursework requirement.
+	- ```tidydata.csv``` > result in csv format for easier viewing. 
