@@ -46,6 +46,29 @@ The following files are available for the train and test data. Their description
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+## Script Flow (```run_analysis.R```)
+
+1.Download the file and place the file in the data folder (commented)
+2.Unzip the file (commented)
+3.Unzipped files are in the folder UCI HAR Dataset. Get the list of the files
+4.Read data from the files into variables
+	4.1 Read the Activity files (Train & Test)
+	4.2 Read the Subject files (Train & Test)
+	4.3 Read the Features files (Train & Test)
+5. Merge the training and test sets to create one data set
+	5.1 Concatenate the data tables by rows
+	5.2 Set names to variables
+	5.3 Merge columns to get the dataframe data for all data
+6. Extracts only the measurements on the mean and standard deviation for each measurement
+	6.1 Subset Name of Features by measurements on the mean and standard deviation
+	6.2 Subset the dataframe Data by selected names of features
+7. Uses descriptive activity names to name the activities in the data set
+	7.1 Read descriptive activity names from "activity_labels.txt"
+	7.2 Merge activity descriptive label into processed data
+8. Appropriately labels the data set with descriptive variable names
+	8.1 Rename the column name label using descriptive variable names
+9. Create the tidydata set and output it
+
 ## Details for Final Result - ```TidyData```
 
 ### ID Fields
