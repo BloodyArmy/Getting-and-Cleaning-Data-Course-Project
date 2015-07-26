@@ -24,7 +24,7 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 ### Execution and files
 
 1. Download the project files into your local directory. 
-2. Load the ```run_analysis.R``` in R/RStudio. No parameter involved.
+2. Load the ```run_analysis.R``` in R/RStudio.
 3. The required dataset can be found in `~/data/UCI HAR Dataset` project files directory.
 ```
 Alternatively, you can remove the commented section (#1 & #2 only) in run_analysis.R to re-download and unzip fresh copy of data. 
